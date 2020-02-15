@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '9o_#n199u7!q&vq(gm7u+gu)#&=4&6qf9iooqj^2ft7vgyyh67'
+SECRET_KEY = '3c56f66a834b3ff23c665c819ed7e15d84c1bdc98ff3ba6f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'realEstate.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME':'realdb',
+        'NAME':'farmdb',
         'USER': 'postgres',
         'PASSWORD':'capitolx89',
         'HOST': 'localhost'
