@@ -44,12 +44,12 @@
             <div class="col-md-12">
               <h2>Welcome {{ user.first_name }}</h2>
               {% if contacts %}
-              <p>Here are the property listings that you have inquired about</p>
+              <p>Here are the produce listings that you have inquired about</p>
               <table class="table">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Property</th>
+                    <th scope="col">Produce</th>
                     <th></th>
                   </tr>
                 </thead>
@@ -59,7 +59,7 @@
                       <td>{{ contact.id }}</td>
                       <td>{{ contact.listing }}</td>
                       <td>
-                        <a class="btn btn-light" href="{% url 'listing' contact.listing_id %}">View Listing</a>
+                        <a class="btn btn-light" href="{% url 'listing' contact.listing_id %}">View Produce</a>
                       </td>
                     </tr>
                   {% endfor %}
